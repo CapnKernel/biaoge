@@ -1,0 +1,31 @@
+%!PS-Adobe-2.0
+%%Creator: Mitch
+%%DocumentPaperSizes: A4
+%%EndComments
+%%EndProlog
+
+% Convert millimetres into points
+/mm {
+  2.834645669 mul
+} def
+
+% Move to a certain location, then print a string.
+% Stack: String X Y Fontsize [top]
+/text
+{
+  % Find and set font
+  /Helvetica findfont exch scalefont setfont
+  % Stack: String X Y
+  % Postscript's Y origin is the bottom of the page.
+  % Our origin is the top of the page, so invert it
+  % by subtracting it from the height of an A4 page
+  297 mm exch sub
+  % Stack: String X Y
+  moveto
+  % Stack: String
+  show
+  % Stack: [empty]
+} def
+
+%%Page: 1 1
+

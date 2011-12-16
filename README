@@ -1,0 +1,14 @@
+These files are for a talk I gave at SZDIY (www.szdiy.org) on Dec 15, 2011.
+They are all my own work, except for dhl.jpg and dhl.png.  The files that are
+mine, I hereby release into the public domain.
+
+biaoge.odt            # My notes for this talk
+biaoge-ps-header.txt  # PostScript fragment for top of file
+biaoge-ps-trailer.txt # PostScript fragment for bottom of file
+biaoge.py             # Script to create PostScript from field defs in .csv file
+dhl.csv               # Field definitions, plus some sample data
+dhl.jpg               # What the form looks like when printed
+dhl.ods               # Field definitions, plus some sample data. Has formulas
+dhl.png               # A scan of a DHL express post form
+Makefile              # A makefile to generate the PostScript output
+README                # What's in here?
